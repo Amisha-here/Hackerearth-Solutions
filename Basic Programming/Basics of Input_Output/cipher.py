@@ -8,18 +8,24 @@ def check(char_number):
     return False
 
 def numbers(temp):
-    if temp > 57:
-        return chr(temp - 10)
+    if temp> 57:
+        while temp > 57:
+            temp -= 10
+        return chr(temp)
     return chr(temp)
 
 def lower_letters(temp):
     if temp > 122:
-        return chr(temp - 26)
+        while temp > 122:
+            temp -= 26
+        return chr(temp)
     return chr(temp)
 
 def upper_letters(temp):
     if temp > 90:
-        return chr(temp - 26)
+        while temp > 90:
+            temp -= 26
+        return chr(temp)
     return chr(temp)
 
 def overlap(char_number):
