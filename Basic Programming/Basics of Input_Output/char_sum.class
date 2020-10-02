@@ -1,0 +1,29 @@
+import java.util.*;
+
+
+
+class program
+
+{
+
+    public static void main(String args[])
+
+    {
+
+        Scanner in= new Scanner(System.in);
+
+        String s=in.next();
+
+        int l= s.length();
+
+        int sum=0;
+
+        for(int i=0;i<l;i++)
+
+            sum+=((int)(s.charAt(i)))-96;
+
+        System.out.println(sum);
+
+    }
+
+}
