@@ -1,3 +1,5 @@
+// https://www.hackerearth.com/practice/basic-programming/implementation/basics-of-implementation/practice-problems/algorithm/strings-1/
+
 #include <bits/stdc++.h>
 using namespace std;
 int main()
