@@ -6,7 +6,7 @@ const int INF = INT_MAX;
 const int MX = 3e5 + 5;
 #define endl "\n"
 //__________________________________________________________________
-
+// Link: https://www.hackerearth.com/practice/algorithms/dynamic-programming/introduction-to-dynamic-programming-1/practice-problems/algorithm/knapsack-with-large-weights-33a2433a/
 // Not traditional 0/1 Knapsack
 
 ll a[1001];
