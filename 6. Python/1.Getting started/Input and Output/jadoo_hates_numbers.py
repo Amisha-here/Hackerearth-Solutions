@@ -1,1 +1,1 @@
-print(ord('F')+ord('F')+ord('F')+ord('F')+ord('F')+ord('F'))
+print(ord("Ƥ"))  # Latin Capital Letter P with hook have unicode value 420
